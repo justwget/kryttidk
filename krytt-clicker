@@ -69,9 +69,9 @@ $config = @(
 $idx = 0
 $rand = New-Object System.Random
 
-Write-Host "Powered by Kryt" -ForegroundColor Green
-Write-Host "Powered by OnlyFans" -ForegroundColor DarkMagenta
-Write-Host "Nu pune in bara, o sa mearga mai greu" -ForegroundColor Green
+Write-Host "Powered by just kryt" -ForegroundColor Green
+Write-Host "Powered by just OnlyFans" -ForegroundColor DarkMagenta
+Write-Host "pune in bara, nu conteaza, oricum e de cacat vibe coded" -ForegroundColor Green
 
 while ($true) {
     if ([Win32]::GetAsyncKeyState(0x7B) -lt 0) { break }
